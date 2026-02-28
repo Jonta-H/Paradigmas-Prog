@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basquete/Basquete.iml" filepath="$PROJECT_DIR$/Basquete/Basquete.iml" />
       <module fileurl="file://$PROJECT_DIR$/Conta/Conta.iml" filepath="$PROJECT_DIR$/Conta/Conta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Exe1-Conta.iml" filepath="$PROJECT_DIR$/.idea/Exe1-Conta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streaming/Streaming.iml" filepath="$PROJECT_DIR$/Streaming/Streaming.iml" />
     </modules>
   </component>
 </project>
