@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml" filepath="$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml" filepath="$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PP1.iml" filepath="$PROJECT_DIR$/.idea/PP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1 Exe/Streaming/Streaming.iml" filepath="$PROJECT_DIR$/Lista1 Exe/Streaming/Streaming.iml" />
+    </modules>
+  </component>
+</project>
