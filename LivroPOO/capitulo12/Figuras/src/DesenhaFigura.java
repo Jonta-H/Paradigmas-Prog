@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
+// teste
 public class DesenhaFigura extends JFrame {
     Circulo circulo;
     Retangulo retangulo;
