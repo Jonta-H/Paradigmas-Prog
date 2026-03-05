@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/.idea/Exe1-Conta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/.idea/Exe1-Conta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Basquete/Basquete.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Basquete/src/Placar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Basquete/src/Placar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Basquete/src/testaPlacar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Basquete/src/testaPlacar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Conta/Conta.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Conta/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Conta/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Conta/src/TestaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Conta/src/TestaConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Exe1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Exe1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Streaming/Streaming.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Streaming/src/Plano.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Streaming/src/Plano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Streaming/src/Streaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Streaming/src/Streaming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/Streaming/src/TestaStreaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/Streaming/src/TestaStreaming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/out/production/Basquete/Placar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/out/production/Basquete/Placar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/out/production/Basquete/testaPlacar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/out/production/Basquete/testaPlacar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/out/production/Conta/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/out/production/Conta/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/out/production/Conta/TestaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/out/production/Conta/TestaConta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/out/production/Streaming/Plano.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/out/production/Streaming/Plano.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/out/production/Streaming/Streaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/out/production/Streaming/Streaming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exe1-Conta/out/production/Streaming/TestaStreaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lista1 Exe/out/production/Streaming/TestaStreaming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PP1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PP1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulamento/src/SmartTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulamento/src/SmartTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulamento/src/TestaSmartTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulamento/src/TestaSmartTV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3ASMr3LYY5blZMsVU7S8mQYowni" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,24 +28,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestaSmartTV.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/26382/Documents/Parad-Prog/PP1/Paradigmas-Prog/PP1",
+    "last_opened_file_path": "C:/Users/26382/Documents/Jonata/Paradigmas-Prog/PP1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
-      </set>
-    </attachedChunks>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="" />
@@ -71,6 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1772581716020</updated>
       <workItem from="1772581717576" duration="2664000" />
+      <workItem from="1772749608182" duration="141000" />
+      <workItem from="1772749757790" duration="3720000" />
     </task>
     <servers />
   </component>
