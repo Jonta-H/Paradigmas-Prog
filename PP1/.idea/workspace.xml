@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PP1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PP1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/.idea/Exe1-Conta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/.idea/Exe1-Conta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe2/ListaExe2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Basquete/src/Placar.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Basquete/Placar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Basquete/src/testaPlacar.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Basquete/testaPlacar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Paradigmas-Prog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Conta/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Conta/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Conta/src/TestaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Conta/TestaConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Exe1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/Exe1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Streaming/Streaming.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Streaming/src/Plano.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Streaming/Plano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Streaming/src/Streaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Streaming/Streaming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/Streaming/src/TestaStreaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Streaming/TestaStreaming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/out/production/Basquete/Placar.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/out/production/Basquete/Placar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/out/production/Basquete/testaPlacar.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/out/production/Basquete/testaPlacar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/out/production/Conta/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/out/production/Conta/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/out/production/Conta/TestaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/out/production/Conta/TestaConta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/out/production/Streaming/Plano.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/out/production/Streaming/Plano.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/out/production/Streaming/Streaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/out/production/Streaming/Streaming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista1 Exe/out/production/Streaming/TestaStreaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/out/production/Streaming/TestaStreaming.class" afterDir="false" />
-    </list>
+    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="ListaExe2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,8 +46,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.TestaArCondicionado.executor": "Run",
+    "Application.TestaConta.executor": "Run",
     "Application.TestaDrone.executor": "Run",
     "Application.TestaSmartTV.executor": "Run",
+    "Application.TestaStreaming.executor": "Run",
     "Application.testaPlacar.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -166,22 +140,24 @@
       <workItem from="1772890755063" duration="333000" />
       <workItem from="1772891106483" duration="2804000" />
       <workItem from="1772926393251" duration="1370000" />
-      <workItem from="1772935228740" duration="1587000" />
+      <workItem from="1772935228740" duration="2052000" />
     </task>
+    <task id="LOCAL-00001" summary="ListaExe2">
+      <option name="closed" value="true" />
+      <created>1772936986099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772936986099</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ListaExe1/src/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ListaExe2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListaExe2" />
   </component>
 </project>
