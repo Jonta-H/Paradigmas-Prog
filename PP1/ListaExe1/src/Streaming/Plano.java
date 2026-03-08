@@ -1,3 +1,5 @@
+package Streaming;
+
 public class Plano {
     public String tipo;
     public double mensalidade;

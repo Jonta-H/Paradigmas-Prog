@@ -1,3 +1,5 @@
+package Streaming;
+
 public class TestaStreaming {
     public static void main(String[] args){
         Streaming c1 = new Streaming("José", "Família");

@@ -1,3 +1,5 @@
+package Streaming;
+
 public class Streaming{
     public String usuario;
     public boolean status;
@@ -42,7 +44,7 @@ public class Streaming{
     public String toString(){
         return "----------------" +
                 "\nUsuario: " + this.usuario +
-                "\nPlano: " + this.getPlano().tipo +
+                "\nStreaming.Plano: " + this.getPlano().tipo +
                 "\nMensalidade " + this.getPlano().mensalidade +
                 "\nUltimo filme assistido: " + this.ultimoFilmeAssistido +
                 "\nStatus: " + this.getStatus() +

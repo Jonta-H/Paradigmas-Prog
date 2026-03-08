@@ -1,3 +1,5 @@
+package Conta;
+
 public class Conta{
     public int numeroConta, agencia;
     public String nomeCliente;
@@ -17,7 +19,7 @@ public class Conta{
             this.saldo += valor;
             System.out.println("- Depósito realizado.");
         } else{
-            System.out.println("* Conta inativa *");
+            System.out.println("* Conta.Conta inativa *");
         }
     }
 
@@ -30,14 +32,14 @@ public class Conta{
                 System.out.println("* Saldo indisponível *");
             }
         } else{
-            System.out.println("* Conta inativa *");
+            System.out.println("* Conta.Conta inativa *");
         }
     }
 
     public void encerrar(){
         if (this.status && this.saldo == 0){
             this.status = false;
-            System.out.println("- Conta encerrada.");
+            System.out.println("- Conta.Conta encerrada.");
         } else{
             System.out.println("* Para encerrar a conta retire o saldo restante *");
         }

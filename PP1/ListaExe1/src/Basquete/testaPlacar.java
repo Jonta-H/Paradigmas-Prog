@@ -1,3 +1,5 @@
+package Basquete;
+
 public class testaPlacar {
     public static void main(String[] args){
         Placar jogo1 = new Placar("Franca", "Bauru");

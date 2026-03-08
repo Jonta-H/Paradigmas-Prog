@@ -1,3 +1,5 @@
+package Basquete;
+
 public class Placar{
     public String nomeTimeCasa;
     public String nomeTimeVisitante;
