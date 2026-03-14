@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="ListaExe2">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="GestaoDisciplina" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +144,7 @@
       <workItem from="1772926393251" duration="1370000" />
       <workItem from="1772935228740" duration="2783000" />
       <workItem from="1773074558414" duration="53000" />
-      <workItem from="1773495189930" duration="4664000" />
+      <workItem from="1773495189930" duration="5148000" />
     </task>
     <task id="LOCAL-00001" summary="ListaExe2">
       <option name="closed" value="true" />
@@ -165,14 +162,40 @@
       <option name="project" value="LOCAL" />
       <updated>1772937380395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GestaoDisciplina">
+      <option name="closed" value="true" />
+      <created>1773500025581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773500025581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ListaExe2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListaExe2" />
+    <MESSAGE value="GestaoDisciplina" />
+    <option name="LAST_COMMIT_MESSAGE" value="GestaoDisciplina" />
   </component>
 </project>
