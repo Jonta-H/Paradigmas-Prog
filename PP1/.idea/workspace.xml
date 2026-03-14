@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="ListaExe2" />
+    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="ListaExe2">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +53,8 @@
     "Application.TestaDrone.executor": "Run",
     "Application.TestaSmartTV.executor": "Run",
     "Application.TestaStreaming.executor": "Run",
+    "Application.TestaTodoParte.executor": "Run",
+    "Application.TesteAcademico.executor": "Run",
     "Application.testaPlacar.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -65,12 +70,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/ListaExe1/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/TodoParte/src/Main.java",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestaStreaming">
+  <component name="RunManager">
     <configuration name="TestaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conta.TestaConta" />
       <module name="ListaExe1" />
@@ -141,6 +146,8 @@
       <workItem from="1772891106483" duration="2804000" />
       <workItem from="1772926393251" duration="1370000" />
       <workItem from="1772935228740" duration="2783000" />
+      <workItem from="1773074558414" duration="53000" />
+      <workItem from="1773495189930" duration="4664000" />
     </task>
     <task id="LOCAL-00001" summary="ListaExe2">
       <option name="closed" value="true" />
