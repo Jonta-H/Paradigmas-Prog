@@ -16,16 +16,16 @@ public class Placar{
     }
 
     public void registrarPonto(String time, int ponto){
-        if (time.equals("Casa")){
+        if (time.equalsIgnoreCase("casa")){
             this.pontosCasa += ponto;
-        } else if (time.equals("Visitante")) {
+        } else if (time.equalsIgnoreCase("visitante")) {
             this.pontosVisitante += ponto;
-        }
+        } else System.out.println("Time não identificado.");
     }
 
     public void proximoQuarto(){
         if (this.periodoQuarto < 4){
-            this.periodoQuarto += 1;
+            this.periodoQuarto ++;
         } else {
             System.out.println("* Fim de Jogo! *");
         }

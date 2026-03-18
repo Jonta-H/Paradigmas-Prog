@@ -2,7 +2,9 @@ package GestaoDisciplinas;
 
 import java.util.ArrayList;
 
-public class Avaliacao {
+public class
+
+Avaliacao {
     private int id;
     private String nome;
     private ArrayList<Questao> listaQuestoes;

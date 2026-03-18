@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="GestaoDisciplina">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TodoParte/GestaoDisciplinas/Disciplina.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoParte/GestaoDisciplinas/Disciplina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaExe1/src/Basquete/Placar.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Basquete/Placar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoParte/src/Exemplo1/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/TodoParte/src/Exemplo1/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoParte/src/GestaoDisciplinas/Avaliacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/TodoParte/src/GestaoDisciplinas/Avaliacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/TodoParte/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -148,6 +154,8 @@
       <workItem from="1772935228740" duration="2783000" />
       <workItem from="1773074558414" duration="53000" />
       <workItem from="1773495189930" duration="5148000" />
+      <workItem from="1773791747327" duration="384000" />
+      <workItem from="1773792203844" duration="4292000" />
     </task>
     <task id="LOCAL-00001" summary="ListaExe2">
       <option name="closed" value="true" />
