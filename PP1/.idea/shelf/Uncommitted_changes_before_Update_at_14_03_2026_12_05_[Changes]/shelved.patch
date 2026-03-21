@@ -1,0 +1,304 @@
+Index: TodoParte/src/TestaTodoParte.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TodoParte/src/TestaTodoParte.java b/TodoParte/src/TestaTodoParte.java
+new file mode 100644
+--- /dev/null	(date 1773500711771)
++++ b/TodoParte/src/TestaTodoParte.java	(date 1773500711771)
+@@ -0,0 +1,16 @@
++import java.util.Date;
++
++public class TestaTodoParte {
++    public static void main(String[] args){
++
++        // cria um objeto da classe Cliente independente
++        Cliente cl1 = new Cliente();
++        Cliente cl2 = new Cliente("1", "123456789", "José", 5);
++
++        // cria um objeto todo
++        Pedido pedido1 = new Pedido();
++        Pedido pedido2 = new Pedido(1, new Date(), cl2);
++
++        System.out.println(pedido2.toString());
++    }
++}
+Index: TodoParte/src/Cliente.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TodoParte/src/Cliente.java b/TodoParte/src/Cliente.java
+new file mode 100644
+--- /dev/null	(date 1773500711770)
++++ b/TodoParte/src/Cliente.java	(date 1773500711770)
+@@ -0,0 +1,56 @@
++public class Cliente{
++    private int id;
++    private String nome, cpf, endereco;
++
++    public Cliente() {
++    }
++
++    public Cliente(String endereco, String cpf, String nome, int id) {
++        this.endereco = endereco;
++        this.cpf = cpf;
++        this.nome = nome;
++        this.id = id;
++    }
++
++    public int getId() {
++        return id;
++    }
++
++    public void setId(int id) {
++        this.id = id;
++    }
++
++    public String getNome() {
++        return nome;
++    }
++
++    public void setNome(String nome) {
++        this.nome = nome;
++    }
++
++    public String getCpf() {
++        return cpf;
++    }
++
++    public void setCpf(String cpf) {
++        this.cpf = cpf;
++    }
++
++    public String getEndereco() {
++        return endereco;
++    }
++
++    public void setEndereco(String endereco) {
++        this.endereco = endereco;
++    }
++
++    @Override
++    public String toString() {
++        return "\nCliente{" +
++                "id=" + id +
++                ", nome='" + nome + '\'' +
++                ", cpf='" + cpf + '\'' +
++                ", endereco='" + endereco + '\'' +
++                '}';
++    }
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8a494ef4-baef-4a8f-a045-692663a2fb75\" name=\"Changes\" comment=\"GestaoDisciplina\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/TodoParte/GestaoDisciplinas/Disciplina.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/TodoParte/GestaoDisciplinas/Disciplina.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Jonta-H&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Jonta-H/Paradigmas-Prog.git&quot;,\r\n    &quot;accountId&quot;: &quot;08e97432-6653-4886-821a-5aa41c407b0a&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3ASMr3LYY5blZMsVU7S8mQYowni\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.TestaArCondicionado.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaConta.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaDrone.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaSmartTV.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaStreaming.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaTodoParte.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TesteAcademico.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.testaPlacar.executor&quot;: &quot;Run&quot;,\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/TodoParte/src/Main.java&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"TestaConta\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Conta.TestaConta\" />\r\n      <module name=\"ListaExe1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Conta.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestaStreaming\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Streaming.TestaStreaming\" />\r\n      <module name=\"ListaExe1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Streaming.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"testaPlacar\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Basquete.testaPlacar\" />\r\n      <module name=\"ListaExe1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Basquete.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.TestaConta\" />\r\n        <item itemvalue=\"Application.TestaStreaming\" />\r\n        <item itemvalue=\"Application.testaPlacar\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8a494ef4-baef-4a8f-a045-692663a2fb75\" name=\"Changes\" comment=\"\" />\r\n      <created>1772581716020</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1772581716020</updated>\r\n      <workItem from=\"1772581717576\" duration=\"2664000\" />\r\n      <workItem from=\"1772749608182\" duration=\"141000\" />\r\n      <workItem from=\"1772749757790\" duration=\"3720000\" />\r\n      <workItem from=\"1772890755063\" duration=\"333000\" />\r\n      <workItem from=\"1772891106483\" duration=\"2804000\" />\r\n      <workItem from=\"1772926393251\" duration=\"1370000\" />\r\n      <workItem from=\"1772935228740\" duration=\"2783000\" />\r\n      <workItem from=\"1773074558414\" duration=\"53000\" />\r\n      <workItem from=\"1773495189930\" duration=\"5148000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"ListaExe2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1772936986099</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1772936986099</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"ListaExe2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1772937380395</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1772937380395</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"GestaoDisciplina\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1773500025581</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1773500025581</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"ListaExe2\" />\r\n    <MESSAGE value=\"GestaoDisciplina\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"GestaoDisciplina\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 38dd6f63b41d34dfa7bac91c7b9e83bc6bc936b5)
++++ b/.idea/workspace.xml	(date 1773500732386)
+@@ -4,10 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="GestaoDisciplina">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/TodoParte/GestaoDisciplinas/Disciplina.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoParte/GestaoDisciplinas/Disciplina.class" afterDir="false" />
+-    </list>
++    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="ListaExe2" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -46,36 +43,34 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Application.TestaArCondicionado.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TestaConta.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TestaDrone.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TestaSmartTV.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TestaStreaming.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TestaTodoParte.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TesteAcademico.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.testaPlacar.executor&quot;: &quot;Run&quot;,
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/TodoParte/src/Main.java&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Application.TestaArCondicionado.executor": "Run",
++    "Application.TestaConta.executor": "Run",
++    "Application.TestaDrone.executor": "Run",
++    "Application.TestaSmartTV.executor": "Run",
++    "Application.TestaStreaming.executor": "Run",
++    "Application.testaPlacar.executor": "Run",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "main",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "onboarding.tips.debug.path": "C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/ListaExe1/src/Main.java",
++    "run.code.analysis.last.selected.profile": "pProject Default",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
+-  <component name="RunManager">
++}]]></component>
++  <component name="RunManager" selected="Application.TestaStreaming">
+     <configuration name="TestaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Conta.TestaConta" />
+       <module name="ListaExe1" />
+@@ -117,9 +112,9 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.TestaConta" />
+         <item itemvalue="Application.TestaStreaming" />
+         <item itemvalue="Application.testaPlacar" />
++        <item itemvalue="Application.TestaConta" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -146,8 +141,6 @@
+       <workItem from="1772891106483" duration="2804000" />
+       <workItem from="1772926393251" duration="1370000" />
+       <workItem from="1772935228740" duration="2783000" />
+-      <workItem from="1773074558414" duration="53000" />
+-      <workItem from="1773495189930" duration="5148000" />
+     </task>
+     <task id="LOCAL-00001" summary="ListaExe2">
+       <option name="closed" value="true" />
+@@ -165,40 +158,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1772937380395</updated>
+     </task>
+-    <task id="LOCAL-00003" summary="GestaoDisciplina">
+-      <option name="closed" value="true" />
+-      <created>1773500025581</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1773500025581</updated>
+-    </task>
+-    <option name="localTasksCounter" value="4" />
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State>
+-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+-                <map>
+-                  <entry key="Show.Git.Branches" value="true" />
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="ListaExe2" />
+-    <MESSAGE value="GestaoDisciplina" />
+-    <option name="LAST_COMMIT_MESSAGE" value="GestaoDisciplina" />
++    <option name="LAST_COMMIT_MESSAGE" value="ListaExe2" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: TodoParte/src/Pedido.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TodoParte/src/Pedido.java b/TodoParte/src/Pedido.java
+new file mode 100644
+--- /dev/null	(date 1773500711771)
++++ b/TodoParte/src/Pedido.java	(date 1773500711771)
+@@ -0,0 +1,51 @@
++import java.util.Date;
++
++public class Pedido {
++    private int id;
++    private Date data;
++    private Cliente cliente; // associação todo-parte
++
++    public Pedido() {
++    }
++
++    // o cliente vem pronto, mostrando sua independência do pedido
++    public Pedido(int id, Date data, Cliente cliente) {
++        this.id = id;
++        this.data = data;
++        this.cliente = cliente;
++    }
++
++    public int getId() {
++        return id;
++    }
++
++    public void setId(int id) {
++        this.id = id;
++    }
++
++    public Date getData() {
++        return data;
++    }
++
++    public void setData(Date data) {
++        this.data = data;
++    }
++
++    public Cliente getCliente() {
++        return cliente;
++    }
++
++    // o cliente vem pronto, mostrando sua independência do pedido
++    public void setCliente(Cliente cliente) {
++        this.cliente = cliente;
++    }
++
++    @Override
++    public String toString() {
++        return "Pedido{" +
++                "id=" + id +
++                ", data=" + data +
++                ", cliente=" + cliente +
++                '}';
++    }
++}

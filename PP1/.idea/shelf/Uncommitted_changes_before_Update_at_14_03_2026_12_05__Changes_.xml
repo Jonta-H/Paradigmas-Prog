@@ -1,0 +1,16 @@
+<changelist name="Uncommitted_changes_before_Update_at_14_03_2026_12_05_[Changes]" date="1773500756461" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026_12_05_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 14/03/2026 12:05 [Changes]" />
+  <binary>
+    <option name="AFTER_PATH" value="out/production/TodoParte/Cliente.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026_12_05_[Changes]/Cliente.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="out/production/TodoParte/TestaTodoParte.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026_12_05_[Changes]/TestaTodoParte.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="out/production/TodoParte/Pedido.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2026_12_05_[Changes]/Pedido.class" />
+  </binary>
+</changelist>
