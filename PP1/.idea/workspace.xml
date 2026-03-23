@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="GestaoDisciplina">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaExe3/src/EdificiosApartamentos/TestaEdificio.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe3/src/EdificiosApartamentos/TestaEdificio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListaExe3/EdificiosApartamentos/TestaEdificio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaExe3/EdificiosApartamentos/TestaEdificio.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "Application.TestaArCondicionado.executor": "Run",
     "Application.TestaBasquete.executor": "Run",
     "Application.TestaBiblioteca.executor": "Run",
+    "Application.TestaCinema.executor": "Run",
     "Application.TestaClinica.executor": "Run",
     "Application.TestaComputador.executor": "Run",
     "Application.TestaConta.executor": "Run",
@@ -59,6 +62,7 @@
     "Application.TestaProjeto.executor": "Run",
     "Application.TestaSmartTV.executor": "Run",
     "Application.TestaStreaming.executor": "Run",
+    "Application.TestaSupermercado.executor": "Run",
     "Application.TestaTodoParte.executor": "Run",
     "Application.TesteAcademico.executor": "Run",
     "Application.testaPlacar.executor": "Run",
@@ -134,6 +138,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -154,6 +166,7 @@
       <workItem from="1773791747327" duration="384000" />
       <workItem from="1773792203844" duration="4292000" />
       <workItem from="1773959830771" duration="3598000" />
+      <workItem from="1774270591748" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="ListaExe2">
       <option name="closed" value="true" />

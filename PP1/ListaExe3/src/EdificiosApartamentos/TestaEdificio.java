@@ -14,6 +14,6 @@ public class TestaEdificio {
         ed1 = null;
 
         ed1.listarApartamentos();
-        // Não existe mais Edificio consequentemente não há mais Apartamentos
+        // Não existe mais Edificio e consequentemente não há mais Apartamentos
     }
 }
