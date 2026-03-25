@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="GestaoDisciplina">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaExe3/src/EdificiosApartamentos/TestaEdificio.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe3/src/EdificiosApartamentos/TestaEdificio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListaExe3/EdificiosApartamentos/TestaEdificio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaExe3/EdificiosApartamentos/TestaEdificio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Desenvolvedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/Junior.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Junior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/Pleno.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Pleno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/Senior.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/Senior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +52,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.TestaAgencia.executor": "Run",
     "Application.TestaArCondicionado.executor": "Run",
-    "Application.TestaBasquete.executor": "Run",
-    "Application.TestaBiblioteca.executor": "Run",
-    "Application.TestaCinema.executor": "Run",
-    "Application.TestaClinica.executor": "Run",
-    "Application.TestaComputador.executor": "Run",
     "Application.TestaConta.executor": "Run",
     "Application.TestaDrone.executor": "Run",
-    "Application.TestaEdificio.executor": "Run",
-    "Application.TestaProjeto.executor": "Run",
     "Application.TestaSmartTV.executor": "Run",
     "Application.TestaStreaming.executor": "Run",
-    "Application.TestaSupermercado.executor": "Run",
     "Application.TestaTodoParte.executor": "Run",
     "Application.TesteAcademico.executor": "Run",
     "Application.testaPlacar.executor": "Run",
@@ -73,7 +67,6 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-25",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1",
     "node.js.detected.package.eslint": "true",
@@ -81,7 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/ListaExe3/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/26382/Documents/Parad-Prog/PP1/Paradigmas-Prog/PP1/Heranca/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -90,7 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestaConta">
     <configuration name="TestaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conta.TestaConta" />
       <module name="ListaExe1" />
@@ -165,8 +158,6 @@
       <workItem from="1773495189930" duration="5148000" />
       <workItem from="1773791747327" duration="384000" />
       <workItem from="1773792203844" duration="4292000" />
-      <workItem from="1773959830771" duration="3598000" />
-      <workItem from="1774270591748" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="ListaExe2">
       <option name="closed" value="true" />
@@ -219,9 +210,5 @@
     <MESSAGE value="ListaExe2" />
     <MESSAGE value="GestaoDisciplina" />
     <option name="LAST_COMMIT_MESSAGE" value="GestaoDisciplina" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

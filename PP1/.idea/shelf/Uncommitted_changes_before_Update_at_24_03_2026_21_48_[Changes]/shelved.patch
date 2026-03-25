@@ -1,0 +1,87 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml\" filepath=\"$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml\" filepath=\"$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml\" filepath=\"$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/ListaExe1/ListaExe1.iml\" filepath=\"$PROJECT_DIR$/ListaExe1/ListaExe1.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/ListaExe2/ListaExe2.iml\" filepath=\"$PROJECT_DIR$/ListaExe2/ListaExe2.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/PP1.iml\" filepath=\"$PROJECT_DIR$/.idea/PP1.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/Lista1 Exe/Streaming/Streaming.iml\" filepath=\"$PROJECT_DIR$/Lista1 Exe/Streaming/Streaming.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/TodoParte/TodoParte.iml\" filepath=\"$PROJECT_DIR$/TodoParte/TodoParte.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 23fd6bb4a7f72fc28474a4c0977b3b38eeca348a)
++++ b/.idea/modules.xml	(date 1774399694381)
+@@ -5,6 +5,7 @@
+       <module fileurl="file://$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml" filepath="$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml" />
+       <module fileurl="file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" />
+       <module fileurl="file://$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml" filepath="$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml" />
++      <module fileurl="file://$PROJECT_DIR$/Heranca/Heranca.iml" filepath="$PROJECT_DIR$/Heranca/Heranca.iml" />
+       <module fileurl="file://$PROJECT_DIR$/ListaExe1/ListaExe1.iml" filepath="$PROJECT_DIR$/ListaExe1/ListaExe1.iml" />
+       <module fileurl="file://$PROJECT_DIR$/ListaExe2/ListaExe2.iml" filepath="$PROJECT_DIR$/ListaExe2/ListaExe2.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/PP1.iml" filepath="$PROJECT_DIR$/.idea/PP1.iml" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8a494ef4-baef-4a8f-a045-692663a2fb75\" name=\"Changes\" comment=\"GestaoDisciplina\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/ListaExe1/src/Basquete/Placar.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ListaExe1/src/Basquete/Placar.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TodoParte/src/Exemplo1/Pedido.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TodoParte/src/Exemplo1/Pedido.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/TodoParte/src/GestaoDisciplinas/Avaliacao.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/TodoParte/src/GestaoDisciplinas/Avaliacao.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Jonta-H&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Jonta-H/Paradigmas-Prog.git&quot;,\r\n    &quot;accountId&quot;: &quot;08e97432-6653-4886-821a-5aa41c407b0a&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3ASMr3LYY5blZMsVU7S8mQYowni\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.TestaArCondicionado.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaConta.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaDrone.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaSmartTV.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaStreaming.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestaTodoParte.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TesteAcademico.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.testaPlacar.executor&quot;: &quot;Run&quot;,\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jonat/OneDrive/Desktop/Curso S.I/Faculdade/Paradigmas-Prog/PP1/TodoParte/src/Main.java&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.TestaConta\">\r\n    <configuration name=\"TestaConta\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Conta.TestaConta\" />\r\n      <module name=\"ListaExe1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Conta.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestaStreaming\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Streaming.TestaStreaming\" />\r\n      <module name=\"ListaExe1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Streaming.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"testaPlacar\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Basquete.testaPlacar\" />\r\n      <module name=\"ListaExe1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Basquete.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.TestaConta\" />\r\n        <item itemvalue=\"Application.TestaStreaming\" />\r\n        <item itemvalue=\"Application.testaPlacar\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8a494ef4-baef-4a8f-a045-692663a2fb75\" name=\"Changes\" comment=\"\" />\r\n      <created>1772581716020</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1772581716020</updated>\r\n      <workItem from=\"1772581717576\" duration=\"2664000\" />\r\n      <workItem from=\"1772749608182\" duration=\"141000\" />\r\n      <workItem from=\"1772749757790\" duration=\"3720000\" />\r\n      <workItem from=\"1772890755063\" duration=\"333000\" />\r\n      <workItem from=\"1772891106483\" duration=\"2804000\" />\r\n      <workItem from=\"1772926393251\" duration=\"1370000\" />\r\n      <workItem from=\"1772935228740\" duration=\"2783000\" />\r\n      <workItem from=\"1773074558414\" duration=\"53000\" />\r\n      <workItem from=\"1773495189930\" duration=\"5148000\" />\r\n      <workItem from=\"1773791747327\" duration=\"384000\" />\r\n      <workItem from=\"1773792203844\" duration=\"4292000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"ListaExe2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1772936986099</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1772936986099</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"ListaExe2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1772937380395</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1772937380395</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"GestaoDisciplina\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1773500025581</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1773500025581</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"ListaExe2\" />\r\n    <MESSAGE value=\"GestaoDisciplina\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"GestaoDisciplina\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 23fd6bb4a7f72fc28474a4c0977b3b38eeca348a)
++++ b/.idea/workspace.xml	(date 1774399694389)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="GestaoDisciplina">
++    <list default="true" id="8a494ef4-baef-4a8f-a045-692663a2fb75" name="Changes" comment="17/03">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ListaExe1/src/Basquete/Placar.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExe1/src/Basquete/Placar.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/TodoParte/src/Exemplo1/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/TodoParte/src/Exemplo1/Pedido.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/TodoParte/src/GestaoDisciplinas/Avaliacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/TodoParte/src/GestaoDisciplinas/Avaliacao.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,7 +31,7 @@
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/Jonta-H/Paradigmas-Prog.git&quot;,
+-    &quot;accountId&quot;: &quot;08e97432-6653-4886-821a-5aa41c407b0a&quot;
++    &quot;accountId&quot;: &quot;ed9d8e50-3bd6-4bbd-9f87-f0a7e8a3ab31&quot;
+   }
+ }</component>
+   <component name="ProjectColorInfo">{
+@@ -155,7 +152,8 @@
+       <workItem from="1773074558414" duration="53000" />
+       <workItem from="1773495189930" duration="5148000" />
+       <workItem from="1773791747327" duration="384000" />
+-      <workItem from="1773792203844" duration="4292000" />
++      <workItem from="1773792203844" duration="4392000" />
++      <workItem from="1774399078089" duration="614000" />
+     </task>
+     <task id="LOCAL-00001" summary="ListaExe2">
+       <option name="closed" value="true" />
+@@ -181,7 +179,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1773500025581</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="17/03">
++      <option name="closed" value="true" />
++      <created>1773796560993</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1773796560993</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -207,6 +213,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="ListaExe2" />
+     <MESSAGE value="GestaoDisciplina" />
+-    <option name="LAST_COMMIT_MESSAGE" value="GestaoDisciplina" />
++    <MESSAGE value="17/03" />
++    <option name="LAST_COMMIT_MESSAGE" value="17/03" />
+   </component>
+ </project>
+\ No newline at end of file
