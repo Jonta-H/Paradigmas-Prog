@@ -1,13 +1,13 @@
 public class Desenvolvedor{
     protected String nome, linguagem;
-    protected float salario;
+    protected float salarioBase;
 
     public Desenvolvedor() {
     }
 
     public Desenvolvedor(String nome, float salario, String linguagem) {
         this.nome = nome;
-        this.salario = salario;
+        this.salarioBase = salario;
         this.linguagem = linguagem;
     }
 
@@ -20,11 +20,11 @@ public class Desenvolvedor{
     }
 
     public float getSalario() {
-        return salario;
+        return salarioBase;
     }
 
     public void setSalario(float salario) {
-        this.salario = salario;
+        this.salarioBase = salario;
     }
 
     public String getLinguagem() {
@@ -40,7 +40,14 @@ public class Desenvolvedor{
         return "Desenvolvedor{" +
                 "nome='" + nome + '\'' +
                 ", linguagem='" + linguagem + '\'' +
-                ", salario=" + salario +
+                ", salario=" + salarioBase +
                 '}';
+    }
+
+    public void codar(){
+        System.out.println("Desenvolvedor planeja e escreve código-fonte");
+    }
+    public float calcularBonus(){
+        return this.salarioBase * 0.05f;
     }
 }
