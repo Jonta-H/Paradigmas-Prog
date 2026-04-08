@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml" filepath="$PROJECT_DIR$/Lista1 Exe/Basquete/Basquete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClasseInterface/ClasseInterface.iml" filepath="$PROJECT_DIR$/ClasseInterface/ClasseInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml" filepath="$PROJECT_DIR$/Lista1 Exe/Conta/Conta.iml" />
       <module fileurl="file://$PROJECT_DIR$/Heranca/Heranca.iml" filepath="$PROJECT_DIR$/Heranca/Heranca.iml" />
