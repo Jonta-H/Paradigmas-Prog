@@ -33,4 +33,19 @@ public class ProdutoService {
             return true; // Remove
         } return false; // Não remove
     }
+
+    // Atualiza um produto por um Id e retorna o produto alterado
+    public Produto atualizar(Long id, Produto alterado){
+        if(repo.existsById(id)){
+            // Produto existe para atualizar
+            alterado.setId(id);
+            return repo.save(alterado); // Como alterado tem Id, ele faz update
+        }
+        return null; // Produto não existe
+    }
+
+    // Metodo cria ou insere o produto no banco
+    public Produto salva(Produto produto){
+        return repo.save(produto);
+    }
 }
